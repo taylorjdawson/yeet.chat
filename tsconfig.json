@@ -19,7 +19,11 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@turnkey/sdk": ["./src/lib/turnkey"],
+      "@turnkey/types": ["./src/lib/turnkey/types"],
+      "turnkey/next-auth": ["./src/lib/turnkey/next-auth"],
+      "turnkey/next-auth/server": ["./src/lib/turnkey/next-auth/server"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
